@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { headers } from 'next/headers';
 import { verifySessionToken } from '@/lib/authSession';
 import { getValidTeslaAccessToken } from '@/lib/teslaAuth';
+import { TESLA_FLEET_BASE_URL } from '@/lib/teslaConfig';
 
 export async function GET() {
   const headersList = await headers();
