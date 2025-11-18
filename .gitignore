@@ -43,3 +43,4 @@ next-env.d.ts
 /app/generated/prisma
 vehicle_command_private.pem
 vehicle_command_public.pem
+!public/.well-known/appspecific/com.tesla.3p.public-key.pem
